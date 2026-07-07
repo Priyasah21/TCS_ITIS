@@ -1,0 +1,566 @@
+# ITIL Fundamentals
+
+## What is ITIL?
+
+**ITIL (Information Technology Infrastructure Library)** is a framework of best practices used for delivering and managing IT services efficiently.
+
+ITIL helps organizations:
+
+* Improve service quality
+* Reduce downtime
+* Increase customer satisfaction
+* Standardize IT processes
+* Improve incident resolution
+
+---
+
+# What is ITSM?
+
+**ITSM (IT Service Management)** refers to managing IT services to meet business needs.
+
+Focus:
+
+```text
+People + Process + Technology
+```
+
+Goal:
+
+Provide reliable and efficient IT services to users.
+
+---
+
+# What is an IT Service?
+
+An IT Service is a service provided by the IT department that delivers value to users.
+
+Examples:
+
+* Email Service
+* Internet Access
+* Printer Service
+* VPN Access
+* Office 365
+* Network Connectivity
+
+---
+
+# What is a Service Desk?
+
+The **Service Desk** is the single point of contact (SPOC) between users and the IT team.
+
+Responsibilities:
+
+* Log tickets
+* Resolve incidents
+* Process service requests
+* Communicate with users
+* Escalate issues
+
+Example:
+
+If your Outlook is not working, you contact the Service Desk.
+
+---
+
+# What is a Ticket?
+
+A ticket is a record of an issue, request, or incident reported by a user.
+
+Example:
+
+```text
+Ticket ID: INC001245
+Issue: Unable to login to Outlook
+Status: Open
+```
+
+---
+
+# What is an Incident?
+
+An **Incident** is an unplanned interruption or reduction in the quality of an IT service.
+
+Examples:
+
+* Email not working
+* Internet down
+* Printer not printing
+* User cannot log in
+
+Goal:
+
+Restore service as quickly as possible.
+
+---
+
+# Incident Management
+
+Process responsible for managing incidents and restoring normal service operation.
+
+Steps:
+
+1. Incident Logged
+2. Incident Categorized
+3. Priority Assigned
+4. Investigation
+5. Resolution
+6. Closure
+
+Example:
+
+```text
+User cannot access Outlook
+↓
+Ticket Created
+↓
+Issue Fixed
+↓
+Ticket Closed
+```
+
+---
+
+# What is a Problem?
+
+A **Problem** is the underlying cause of one or more incidents.
+
+Example:
+
+Incident:
+
+```text
+Printer stopped working
+```
+
+Problem:
+
+```text
+Faulty printer driver
+```
+
+---
+
+# Problem Management
+
+Process responsible for identifying and eliminating root causes.
+
+Goal:
+
+Prevent incidents from happening again.
+
+---
+
+# Incident vs Problem
+
+| Incident                | Problem             |
+| ----------------------- | ------------------- |
+| Service interruption    | Root cause          |
+| Needs quick restoration | Needs permanent fix |
+| User focused            | Cause focused       |
+
+Example:
+
+Incident:
+
+```text
+Internet is down
+```
+
+Problem:
+
+```text
+Network switch failure
+```
+
+---
+
+# What is a Service Request?
+
+A request from a user for information, access, or a standard service.
+
+Examples:
+
+* Password Reset
+* Software Installation
+* New Laptop Request
+* VPN Access Request
+
+Service Requests are not incidents.
+
+---
+
+# Service Request Management
+
+Handles standard user requests efficiently.
+
+Examples:
+
+* Create email account
+* Install software
+* Grant folder access
+
+---
+
+# What is Change Management?
+
+Process that controls changes made to IT systems.
+
+Goal:
+
+Minimize risk while implementing changes.
+
+Examples:
+
+* Server Upgrade
+* Software Upgrade
+* Firewall Rule Change
+* Operating System Patch
+
+---
+
+# Why Change Management?
+
+Without proper control:
+
+* Service outages may occur
+* Security issues may arise
+* Business operations may be affected
+
+---
+
+# Types of Changes
+
+## Standard Change
+
+Low risk and pre-approved.
+
+Examples:
+
+* Password reset
+* Antivirus update
+
+---
+
+## Normal Change
+
+Requires review and approval.
+
+Examples:
+
+* Server migration
+* Application upgrade
+
+---
+
+## Emergency Change
+
+Implemented immediately to restore service.
+
+Examples:
+
+* Critical security patch
+* Production server failure
+
+---
+
+# What is SLA?
+
+**SLA (Service Level Agreement)** is an agreement defining expected service levels.
+
+Includes:
+
+* Response Time
+* Resolution Time
+* Service Availability
+
+Example:
+
+```text
+Priority 1 Incident
+Response Time: 15 Minutes
+Resolution Time: 4 Hours
+```
+
+---
+
+# What is Priority?
+
+Priority determines how quickly an issue should be handled.
+
+Priority is usually calculated using:
+
+```text
+Priority = Impact + Urgency
+```
+
+---
+
+# Impact
+
+Measures how many users or services are affected.
+
+Examples:
+
+High Impact:
+
+```text
+Entire company email down
+```
+
+Low Impact:
+
+```text
+One user cannot print
+```
+
+---
+
+# Urgency
+
+Measures how quickly a solution is needed.
+
+Examples:
+
+High Urgency:
+
+```text
+CEO unable to access email
+```
+
+Low Urgency:
+
+```text
+Request for a new wallpaper
+```
+
+---
+
+# Priority Levels
+
+| Priority | Description |
+| -------- | ----------- |
+| P1       | Critical    |
+| P2       | High        |
+| P3       | Medium      |
+| P4       | Low         |
+
+---
+
+# Escalation
+
+Process of transferring a ticket to a higher support level.
+
+Used when:
+
+* Issue cannot be resolved
+* Additional expertise is required
+
+---
+
+# Support Levels
+
+## L1 Support
+
+First-line support.
+
+Responsibilities:
+
+* Password resets
+* Basic troubleshooting
+* Ticket logging
+
+---
+
+## L2 Support
+
+Technical specialists.
+
+Responsibilities:
+
+* Advanced troubleshooting
+* Server issues
+* Network issues
+
+---
+
+## L3 Support
+
+Experts and developers.
+
+Responsibilities:
+
+* Code fixes
+* Product-level issues
+* Complex technical problems
+
+---
+
+# Knowledge Base (KB)
+
+A collection of documented solutions and procedures.
+
+Benefits:
+
+* Faster resolutions
+* Consistent support
+* Reduced repeated work
+
+---
+
+# Root Cause Analysis (RCA)
+
+Process of identifying the actual cause of a problem.
+
+Goal:
+
+Prevent recurrence.
+
+Example:
+
+```text
+Incident:
+Website Down
+
+RCA:
+Database Service Stopped
+```
+
+---
+
+# Key ITIL Terms
+
+| Term | Meaning                                       |
+| ---- | --------------------------------------------- |
+| ITIL | Information Technology Infrastructure Library |
+| ITSM | IT Service Management                         |
+| SLA  | Service Level Agreement                       |
+| RCA  | Root Cause Analysis                           |
+| SPOC | Single Point of Contact                       |
+| KB   | Knowledge Base                                |
+
+---
+
+# Quick Revision
+
+## Incident
+
+Unplanned service interruption.
+
+Example:
+
+Email not working.
+
+---
+
+## Problem
+
+Root cause of incidents.
+
+Example:
+
+Mail server failure.
+
+---
+
+## Service Request
+
+Request for a standard service.
+
+Example:
+
+Password reset.
+
+---
+
+## Change Management
+
+Controls changes to IT systems.
+
+---
+
+## SLA
+
+Defines service expectations.
+
+---
+
+## Priority Formula
+
+```text
+Priority = Impact + Urgency
+```
+
+---
+
+## Support Levels
+
+L1 → Basic Support
+
+L2 → Technical Specialists
+
+L3 → Experts / Developers
+
+---
+
+# Most Asked TCS ITIS Questions
+
+### What is ITIL?
+
+A framework of best practices for IT service management.
+
+---
+
+### What is ITSM?
+
+Managing IT services to meet business needs.
+
+---
+
+### What is an Incident?
+
+An unplanned interruption to an IT service.
+
+---
+
+### What is a Problem?
+
+The root cause of one or more incidents.
+
+---
+
+### Difference between Incident and Problem?
+
+Incident = Service interruption
+
+Problem = Root cause
+
+---
+
+### What is a Service Request?
+
+A request for a standard service.
+
+---
+
+### What is SLA?
+
+Service Level Agreement.
+
+---
+
+### What determines Priority?
+
+Impact and Urgency.
+
+---
+
+### What is RCA?
+
+Root Cause Analysis.
+
+---
+
+### What is the role of a Service Desk?
+
+Single point of contact between users and IT support.
