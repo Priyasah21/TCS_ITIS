@@ -564,3 +564,612 @@ Root Cause Analysis.
 ### What is the role of a Service Desk?
 
 Single point of contact between users and IT support.
+# ITIL Fundamentals – Part 2 (Advanced Concepts)
+
+# ITIL Service Value System (SVS)
+
+The **Service Value System (SVS)** explains how all components and activities of an organization work together to create value through IT services.
+
+The SVS ensures that:
+
+```text
+Opportunity/Demand
+        ↓
+ IT Services
+        ↓
+Business Value
+```
+
+The main components are:
+
+* Guiding Principles
+* Governance
+* Service Value Chain
+* Practices
+* Continual Improvement
+
+---
+
+# What is Value?
+
+In ITIL, value means:
+
+> The perceived benefits, usefulness, and importance of a service.
+
+Example:
+
+A company's email service creates value because employees can communicate efficiently.
+
+If the service is unavailable, business productivity decreases.
+
+---
+
+# The Four Dimensions of Service Management
+
+ITIL defines four dimensions that must be balanced for successful service delivery.
+
+## 1. Organizations and People
+
+Focuses on:
+
+* Employees
+* Skills
+* Responsibilities
+* Organizational Structure
+
+Example:
+
+Even the best software will fail if employees are not trained properly.
+
+---
+
+## 2. Information and Technology
+
+Includes:
+
+* Applications
+* Databases
+* Servers
+* Networks
+* Cloud Services
+
+Example:
+
+Office 365, Azure, Windows Server, Active Directory.
+
+---
+
+## 3. Partners and Suppliers
+
+External organizations helping deliver services.
+
+Examples:
+
+* Microsoft
+* Cisco
+* AWS
+* Internet Service Providers
+
+---
+
+## 4. Value Streams and Processes
+
+Defines how work flows from request to delivery.
+
+Example:
+
+```text
+User Request
+      ↓
+Ticket Created
+      ↓
+Assigned
+      ↓
+Resolved
+      ↓
+Closed
+```
+
+---
+
+# ITIL Guiding Principles
+
+These are recommendations that guide decision-making.
+
+## Focus on Value
+
+Always prioritize customer value.
+
+Question:
+
+```text
+Does this activity help the customer?
+```
+
+---
+
+## Start Where You Are
+
+Don't rebuild everything from scratch.
+
+Assess existing resources first.
+
+---
+
+## Progress Iteratively with Feedback
+
+Make small improvements and collect feedback continuously.
+
+---
+
+## Collaborate and Promote Visibility
+
+Encourage teamwork and transparency.
+
+---
+
+## Think and Work Holistically
+
+Consider the entire service, not just individual components.
+
+---
+
+## Keep It Simple and Practical
+
+Avoid unnecessary complexity.
+
+---
+
+## Optimize and Automate
+
+Automate repetitive tasks whenever possible.
+
+Examples:
+
+* Password Reset Automation
+* Automated Backups
+* Automated Monitoring
+
+---
+
+# Service Value Chain
+
+The Service Value Chain is the operating model of ITIL.
+
+Activities include:
+
+## Plan
+
+Strategic planning and decision making.
+
+---
+
+## Improve
+
+Continuous service improvement.
+
+---
+
+## Engage
+
+Communicate with customers and stakeholders.
+
+---
+
+## Design and Transition
+
+Design new services and implement changes.
+
+---
+
+## Obtain/Build
+
+Acquire or develop required components.
+
+---
+
+## Deliver and Support
+
+Provide services to users.
+
+---
+
+# Continual Improvement
+
+One of the most important ITIL concepts.
+
+Goal:
+
+Improve services continuously.
+
+Examples:
+
+* Reduce ticket resolution time
+* Improve customer satisfaction
+* Reduce recurring incidents
+
+---
+
+# Continual Improvement Model
+
+## Step 1
+
+What is the vision?
+
+---
+
+## Step 2
+
+Where are we now?
+
+---
+
+## Step 3
+
+Where do we want to be?
+
+---
+
+## Step 4
+
+How do we get there?
+
+---
+
+## Step 5
+
+Take action.
+
+---
+
+## Step 6
+
+Did we achieve the goal?
+
+---
+
+## Step 7
+
+Maintain momentum.
+
+---
+
+# Availability Management
+
+Ensures IT services are available when needed.
+
+Goal:
+
+Maximize uptime.
+
+Example:
+
+```text
+Email Service
+Availability = 99.9%
+```
+
+---
+
+# Common Causes of Downtime
+
+* Server Failure
+* Network Failure
+* Power Failure
+* Software Bugs
+* Human Error
+
+---
+
+# Capacity Management
+
+Ensures IT resources can handle current and future workloads.
+
+Examples:
+
+* CPU Capacity
+* RAM Capacity
+* Storage Capacity
+* Network Bandwidth
+
+---
+
+# Example
+
+An e-commerce website expects heavy traffic during a sale.
+
+Capacity Management ensures:
+
+* Servers can handle demand
+* Network remains stable
+* Performance remains acceptable
+
+---
+
+# Service Availability vs Capacity
+
+| Availability         | Capacity             |
+| -------------------- | -------------------- |
+| Service Uptime       | Resource Capability  |
+| Focus on Reliability | Focus on Performance |
+
+---
+
+# Configuration Management
+
+Tracks IT assets and configurations.
+
+Examples:
+
+* Servers
+* Laptops
+* Switches
+* Applications
+* Databases
+
+Goal:
+
+Know exactly what exists in the IT environment.
+
+---
+
+# What is a Configuration Item (CI)?
+
+Any component that needs to be managed.
+
+Examples:
+
+* Laptop
+* Printer
+* Server
+* Router
+* Software Application
+
+---
+
+# What is CMDB?
+
+CMDB = Configuration Management Database
+
+Stores information about:
+
+* Assets
+* Relationships
+* Dependencies
+
+Example:
+
+```text
+Application
+      ↓
+Database
+      ↓
+Server
+```
+
+If the server fails, administrators can identify affected applications.
+
+---
+
+# Knowledge Management
+
+Ensures information is captured and shared.
+
+Examples:
+
+* Troubleshooting Guides
+* SOP Documents
+* Resolution Articles
+
+Benefits:
+
+* Faster Resolution
+* Reduced Escalations
+* Better User Experience
+
+---
+
+# Service Continuity Management
+
+Ensures critical services continue during disasters.
+
+Examples:
+
+* Data Center Failure
+* Cyber Attack
+* Natural Disaster
+
+Often works with:
+
+* Backup
+* Disaster Recovery
+* Business Continuity Planning
+
+---
+
+# ITIL and Real IT Support Jobs
+
+In most IT support roles:
+
+### L1 Engineer
+
+* Ticket Logging
+* Password Resets
+* Basic Troubleshooting
+* SLA Monitoring
+
+---
+
+### L2 Engineer
+
+* Incident Analysis
+* Problem Investigation
+* Server Administration
+* Advanced Troubleshooting
+
+---
+
+### L3 Engineer
+
+* Root Cause Analysis
+* Product Defects
+* Infrastructure Design
+* Major Incident Resolution
+
+---
+
+# Real Interview Scenarios
+
+### Scenario 1
+
+A user's Outlook is not opening.
+
+This is:
+
+**Incident**
+
+---
+
+### Scenario 2
+
+100 employees cannot send emails due to Exchange Server failure.
+
+This is:
+
+**Major Incident**
+
+---
+
+### Scenario 3
+
+You identify that all email outages are caused by a faulty mail service.
+
+This is:
+
+**Problem Management**
+
+---
+
+### Scenario 4
+
+A new version of antivirus software must be installed across all systems.
+
+This is:
+
+**Change Management**
+
+---
+
+### Scenario 5
+
+A user requests access to a shared folder.
+
+This is:
+
+**Service Request**
+
+---
+
+# Most Important ITIL Definitions
+
+| Term            | Definition                                            |
+| --------------- | ----------------------------------------------------- |
+| Incident        | Unplanned interruption to a service                   |
+| Problem         | Root cause of incidents                               |
+| Change          | Addition, modification, or removal affecting services |
+| Service Request | Request for a standard service                        |
+| SLA             | Service Level Agreement                               |
+| RCA             | Root Cause Analysis                                   |
+| CMDB            | Configuration Management Database                     |
+| CI              | Configuration Item                                    |
+| Availability    | Service uptime                                        |
+| Capacity        | Ability to handle workload                            |
+
+---
+
+# Top 20 ITIL Interview Questions
+
+### What is ITIL?
+
+A framework of best practices for IT Service Management.
+
+### What is ITSM?
+
+Managing IT services to meet business needs.
+
+### What is an Incident?
+
+An unplanned interruption to a service.
+
+### What is a Problem?
+
+The underlying cause of one or more incidents.
+
+### What is a Service Request?
+
+A request for a standard service.
+
+### What is SLA?
+
+An agreement defining service expectations.
+
+### What is RCA?
+
+Root Cause Analysis.
+
+### What is CMDB?
+
+Database containing configuration information.
+
+### What is a Configuration Item?
+
+Any managed IT asset or component.
+
+### What is Availability Management?
+
+Ensuring services remain available.
+
+### What is Capacity Management?
+
+Ensuring resources meet demand.
+
+### What is Change Management?
+
+Managing changes with minimal risk.
+
+### What is a Major Incident?
+
+A high-impact incident affecting many users.
+
+### What is a Service Desk?
+
+Single Point of Contact (SPOC) for users.
+
+### What is Escalation?
+
+Transferring issues to higher support levels.
+
+### Difference between Incident and Problem?
+
+Incident = Interruption
+
+Problem = Root Cause
+
+### Difference between Incident and Service Request?
+
+Incident = Something broken
+
+Service Request = Something needed
+
+### What are the Four Dimensions?
+
+Organizations & People, Information & Technology, Partners & Suppliers, Value Streams & Processes.
+
+### What is Continual Improvement?
+
+Ongoing enhancement of services and processes.
+
+### What is the goal of ITIL?
+
+Deliver value through efficient IT services.
+
